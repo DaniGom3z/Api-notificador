@@ -20,7 +20,7 @@ export class SendNotificationService {
                 this.enclosuresMap.set(enclosureId, token);
             }
 
-            await this.socketRepository.notify(Eventos.ENVIAR_DATA, notification, token);
+            await this.socketRepository.notify(Eventos.Enviar_DATA, notification, token);
         } catch (error: any) {
             throw new Error(error);
         }
