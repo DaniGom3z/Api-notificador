@@ -1,5 +1,5 @@
 export enum Eventos {
-    ENVIAR_DATA = "enviar_data",
+    SEND_DATA = "send_data",
     RECIBIR_DATA = "recibir_data",
     CONNECTION = "coneccion"
 }
